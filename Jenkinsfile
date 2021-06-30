@@ -59,6 +59,7 @@ pipeline {
                 packagePath: "Output\\${env.BUILD_NUMBER}",
                 orchestratorAddress: "${UIPATH_ORCH_URL}",
                 orchestratorTenant: "${UIPATH_ORCH_TENANT_NAME}",
+		environments: '',
                 folderName: "${UIPATH_ORCH_FOLDER_NAME}",
 				credentials: UserPass('39861217-03e7-451f-beed-9c91b2a95a03')
 
