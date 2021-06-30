@@ -85,7 +85,7 @@
           <Transition.To>
             <State x:Name="__ReferenceID0" DisplayName="Process" sap:VirtualizedContainerService.HintSize="380,470" sap2010:WorkflowViewState.IdRef="State_2">
               <State.Entry>
-                <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;T'hets Good&quot;]" />
+                <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot; Good&quot;]" />
               </State.Entry>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
